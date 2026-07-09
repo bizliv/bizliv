@@ -1,7 +1,7 @@
 {
   "name": "BizLiv.life - モヤモヤを、次の一歩に変える。",
   "short_name": "BizLiv",
-  "description": "今のモヤモヤを整理し、話す、設計する、記録する、使う、読む・聴く入口から次の一歩を見つけるポータル。",
+  "description": "今のモヤモヤを整理し、問いに答える、設計する、遊ぶ、使う、読む・聴く入口から次の一歩を見つけるポータル。",
   "start_url": "/ja/",
   "display": "standalone",
   "background_color": "#fbf7eb",
