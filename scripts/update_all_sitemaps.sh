@@ -21,6 +21,7 @@ REPOS=(
   "/Users/atsuvu/bizliv/bizliv"
   "/Users/atsuvu/bizliv/bizliv-coach"
   "/Users/atsuvu/bizliv/bizliv-design"
+  "/Users/atsuvu/bizliv/bizliv-studio"
   "/Users/atsuvu/bizliv/bizliv-apps"
 )
 
