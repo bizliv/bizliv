@@ -2,7 +2,7 @@
 <urlset xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://bizliv.life/</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <priority>1.0</priority>
     <changefreq>daily</changefreq>
     <html:link rel="alternate" hreflang="ja" href="https://bizliv.life/ja/" />
@@ -62,7 +62,7 @@
     </url>
   <url>
     <loc>https://bizliv.life/privacy/ja/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
     <html:link rel="alternate" hreflang="ja" href="https://bizliv.life/privacy/ja/" />
@@ -72,7 +72,7 @@
     </url>
   <url>
     <loc>https://bizliv.life/privacy/en/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
     <html:link rel="alternate" hreflang="ja" href="https://bizliv.life/privacy/ja/" />
@@ -82,7 +82,7 @@
     </url>
   <url>
     <loc>https://bizliv.life/privacy/zhhans/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
     <html:link rel="alternate" hreflang="ja" href="https://bizliv.life/privacy/ja/" />
@@ -92,7 +92,7 @@
     </url>
   <url>
     <loc>https://bizliv.life/privacy/zhhant/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
     <html:link rel="alternate" hreflang="ja" href="https://bizliv.life/privacy/ja/" />
@@ -172,7 +172,7 @@
     </url>
   <url>
     <loc>https://bizliv.life/blog/ja/</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>
     <html:link rel="alternate" hreflang="ja" href="https://bizliv.life/blog/ja/" />
@@ -343,7 +343,7 @@
     </url>
   <url>
     <loc>https://bizliv.life/podcast/ja/</loc>
-    <lastmod>2026-08-08</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <priority>0.8</priority>
     <changefreq>daily</changefreq>
     <html:link rel="alternate" hreflang="ja" href="https://bizliv.life/podcast/ja/" />
