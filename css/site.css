@@ -199,7 +199,7 @@ nav ul li { display: inline; margin-right: 10px; }
 }
 
 .apps-lp .app-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .apps-lp .lp-card {
@@ -801,7 +801,7 @@ nav ul li { display: inline; margin-right: 10px; }
 }
 
 .portal-property-card h3 {
-  margin-top: 0;
+  margin-top: auto;
 }
 
 .portal-property-card p {
@@ -1217,6 +1217,19 @@ nav ul li { display: inline; margin-right: 10px; }
   align-items: start;
 }
 
+.operator-signals-section {
+  background: #f7f9ff;
+  border-top: 1px solid rgba(214, 224, 242, 0.78);
+  border-bottom: 1px solid rgba(214, 224, 242, 0.78);
+}
+
+.operator-signal-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 1100px;
+}
+
 .operator-card,
 .operator-link-card,
 .operator-note {
@@ -1227,8 +1240,8 @@ nav ul li { display: inline; margin-right: 10px; }
   box-shadow: 0 12px 28px rgba(31, 33, 25, 0.06);
 }
 
-.operator-card span,
-.operator-link-card span {
+.operator-card > span,
+.operator-link-card > span {
   color: var(--portal-terrain-gold);
   display: block;
   font-size: 0.76rem;
@@ -1236,6 +1249,50 @@ nav ul li { display: inline; margin-right: 10px; }
   letter-spacing: 0.08em;
   margin-bottom: 10px;
   text-transform: uppercase;
+}
+
+.operator-service-title {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.operator-service-title h3 {
+  margin: 0;
+}
+
+.operator-service-icon {
+  color: #0f2747;
+  display: inline-flex;
+  flex: 0 0 auto;
+  height: 24px;
+  margin: 0;
+  width: 24px;
+}
+
+.operator-service-icon svg {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+/* The three marks have different native proportions, so normalize their visual weight. */
+.operator-link-card:nth-child(1) .operator-service-icon,
+.operator-service-icon-note {
+  height: 21px;
+  width: 21px;
+}
+
+.operator-link-card:nth-child(2) .operator-service-icon,
+.operator-service-icon-standfm {
+  height: 27px;
+  width: 27px;
+}
+
+.operator-link-card:nth-child(3) .operator-service-icon,
+.operator-service-icon-x {
+  height: 22px;
+  width: 22px;
 }
 
 .operator-card h3,
@@ -1374,6 +1431,10 @@ nav ul li { display: inline; margin-right: 10px; }
   .operator-link-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
+
+  .operator-signal-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 980px) {
@@ -1471,6 +1532,7 @@ nav ul li { display: inline; margin-right: 10px; }
   .portal-properties-grid,
   .portal-legal-layout,
   .operator-link-grid,
+  .operator-signal-grid,
   .portal-funnel-grid {
     grid-template-columns: 1fr;
   }
