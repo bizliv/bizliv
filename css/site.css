@@ -969,11 +969,6 @@ nav ul li { display: inline; margin-right: 10px; }
   font-weight: 800;
 }
 
-.portal-footer-social-label {
-  color: #dce4d6;
-  font-weight: 800;
-}
-
 .portal-footer-stack {
   display: grid;
   gap: 6px;
